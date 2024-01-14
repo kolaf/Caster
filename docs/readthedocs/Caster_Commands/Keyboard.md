@@ -96,7 +96,7 @@ The keys and their respective command specs (spoken phrases) currently available
 - tilde: ~
 - (tab | tabby): tab
 - (backspace | clear): backspace
-- (delete | deli): del
+- (delete | crack): del
 - (enter | shock): enter
 - (left | lease): left
 - (right | ross): right

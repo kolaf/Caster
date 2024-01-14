@@ -111,11 +111,14 @@ _executables = [
     "\\bash.exe",
     "\\cmd.exe",
     "\\mintty.exe",
+    "\\putty.exe",
     "\\powershell.exe",
     "idea",
     "idea64",
     "studio64",
-    "pycharm"
+    "pycharm",
+    "\\WindowsTerminal.exe", 
+    "\\OpenConsole.exe"
 ]
 
 

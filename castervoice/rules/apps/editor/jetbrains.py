@@ -6,7 +6,7 @@ from castervoice.lib.merge.state.short import R
 
 # Directional Movement
 
-RIGHT = "(right|sauce)"
+RIGHT = "(right|ross)"
 LEFT = "(left|lease)"
 UP = "(up|sauce)"
 DOWN = "(down|dunce)"
@@ -135,5 +135,5 @@ class JetbrainsRule(MappingRule):
 
 def get_rule():
     details = RuleDetails(name="jet brains",
-                          executable=["idea", "idea64", "studio64", "pycharm", "rider64", "webstorm", "webstorm64"])
+                          executable=["idea", "idea64", "studio64", "pycharm", "rider64", "webstorm", "webstorm64", "x410"])
     return JetbrainsRule, details

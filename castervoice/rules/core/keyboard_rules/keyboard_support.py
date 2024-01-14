@@ -78,7 +78,7 @@ class ButtonDict():
         self.button_dictionary.update({
             "(tab | tabby)": "tab",
             "(backspace | clear)": "backspace",
-            "(delete | deli)": "del",
+            "(delete | crack)": "del",
             "(enter | shock)": "enter",
             left_spec: "left",
             right_spec: "right",
@@ -111,8 +111,8 @@ class ButtonDict():
             "scroll lock": "scrolllock",
             "num lock": "numlock",
             "caps lock": "capslock",
-            "(home | lease wally | latch)": "home",
-            "(end | ross wally | ratch)": "end",
+            "(home | lease wally | latch | west)": "home",
+            "(end | ross wally | ratch | east)": "end",
             # number pad numbers deliberately left off
             # volume control deliberately left off as these are dealt with in HardwareRule and I don't think there's a use case for modifiers there
             # track control deliberately left off as these are (or will be) dealt with in HardwareRule and I don't think there's a use case for modifiers there

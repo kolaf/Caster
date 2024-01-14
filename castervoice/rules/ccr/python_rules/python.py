@@ -13,7 +13,6 @@ from castervoice.lib.merge.mergerule import MergeRule
 from castervoice.lib.merge.state.short import R
 from castervoice.lib.temporary import Store, Retrieve
 
-
 class Python(MergeRule):
 
     mapping = {
@@ -98,7 +97,7 @@ class Python(MergeRule):
         "toml":
             R(Text("toml")),
         "jason":
-            R(Text("toml")),
+            R(Text("json")),
         "identity is":
             R(Text(" is ")),
         "yield":

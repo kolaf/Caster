@@ -38,7 +38,9 @@ def text_punc_dict():
         "modulo":                                             "%",
         "ampersand":                                          "&",
         "apostrophe | single quote | chicky":                 "'",
-        "left " + _id["()"]:                                  "(",
+        "leap":                                               "(",
+        "reap":                                               ")",
+        "left " + _id["()"]:                                 "(",
         "right " + _id["()"]:                                 ")",
         "starling":                                           "*",
         "plus":                                               "+",
@@ -65,5 +67,7 @@ def text_punc_dict():
         "left " + _id["{}"]:                                  "{",
         "pipe (sim | symbol)":                                "|",
         "right " + _id["{}"]:                                 "}",
+        "lake":                                               "{",
+        "rake":                                               "}",
         "tilde":                                              "~",
     }

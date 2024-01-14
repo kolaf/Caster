@@ -150,6 +150,14 @@ class Navigation(MergeRule):
         "bench":
             R(Function(navigation.left_up)),
 
+        "north [<nnavi10>]":
+            R(Key("c-home:%(nnavi10)s")),
+        "south [<nnavi10>]":
+            R(Key("c-end:%(nnavi10)s")),
+        "shin north [<nnavi10>]":
+            R(Key("cs-home:%(nnavi10)s")),
+        "shin south [<nnavi10>]":
+            R(Key("cs-end:%(nnavi10)s")),
         # special keystroke commands
         "(lease wally | latch) [<nnavi10>]":
             R(Key("home:%(nnavi10)s")),
@@ -187,7 +195,7 @@ class Navigation(MergeRule):
     button_dictionary_500_no_prefix_no_modifier = {
         "tabby": "tab",
         "clear": "backspace",
-        "deli": "del",
+        "crack": "del",
         "shock": "enter",
         "lease": "left",
         "ross": "right",
